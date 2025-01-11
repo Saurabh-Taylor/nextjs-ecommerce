@@ -1,12 +1,13 @@
+import FeaturedProducts from "@/components/home/FeaturedProducts";
+import Hero from "@/components/home/Hero";
 
-import React from 'react'
-
-function page() {
+function HomePage() {
   return (
-    <div className='text-muted-foreground' >
-      hye saurabh
-    </div>
-  )
+    <>
+      <Hero />
+      <FeaturedProducts />
+    </>
+  );
 }
 
-export default page
+export default HomePage;
