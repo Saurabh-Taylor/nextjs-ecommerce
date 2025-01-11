@@ -26,11 +26,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' suppressHydrationWarning>
-      <body className={geistMono.variable}>
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning className={geistMono.variable}>
         <Providers>
           <Navbar />
-          <Container className='py-20'>{children}</Container>
+          <Container className="py-20">{children}</Container>
         </Providers>
       </body>
     </html>
